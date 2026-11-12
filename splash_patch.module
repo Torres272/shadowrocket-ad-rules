@@ -31,3 +31,8 @@ URL-REGEX,^http://[^/]+:8091/allOne\.php\?(?:[^&#]*&)*ad_name=(?:main_popup_ios|
 # Source: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/AWAvenue-Ads-Rule.txt
 DOMAIN,adsmind.ugdtimg.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
+
+# Additional GDT interactive-ad endpoints; device validation pending.
+# Source: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/AWAvenue-Ads-Rule.txt
+DOMAIN,canvas-cdn.gdt.qq.com,REJECT
+DOMAIN,v3.gdt.qq.com,REJECT
