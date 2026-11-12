@@ -42,3 +42,7 @@ DOMAIN,v3.gdt.qq.com,REJECT
 # https://github.com/xinggsf/Adblock-Plus-Rule/blob/master/rule.txt
 DOMAIN,erebor.douban.com,REJECT
 DOMAIN,at3.doubanio.com,REJECT
+
+# JD ad delivery endpoint used by third-party apps; device validation pending.
+# Source: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/issues/48
+DOMAIN,dsp-x.jd.com,REJECT
