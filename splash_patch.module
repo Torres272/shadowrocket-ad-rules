@@ -23,3 +23,11 @@ DOMAIN,tmeadcomm.y.qq.com,REJECT
 
 # 360 Smart Life ad endpoint
 DOMAIN,ad.iot.360.cn,REJECT
+
+# Narrow Zhibo8 ad placements; device validation pending.
+URL-REGEX,^http://[^/]+:8091/allOne\.php\?(?:[^&#]*&)*ad_name=(?:main_popup_ios|main_important_ios|main_inter|main_match)(?:&|$),REJECT
+
+# Additional Tencent GDT ad asset hosts.
+# Source: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/AWAvenue-Ads-Rule.txt
+DOMAIN,adsmind.ugdtimg.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
