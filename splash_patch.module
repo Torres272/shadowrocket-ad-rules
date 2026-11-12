@@ -7,3 +7,19 @@ DOMAIN,goblin.hupu.com,REJECT
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN,api-access.pangolin-sdk-toutiao1.com,REJECT
 DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
+
+# Additional source-backed ad domains; not yet tested on this device.
+# Source: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/AWAvenue-Ads-Rule.txt
+
+# Tencent Video / GDT ad assets
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+
+# QQ Music ad endpoints
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adcdn.tencentmusic.com,REJECT
+DOMAIN,tmead.y.qq.com,REJECT
+DOMAIN,tmeadcomm.y.qq.com,REJECT
+
+# 360 Smart Life ad endpoint
+DOMAIN,ad.iot.360.cn,REJECT
