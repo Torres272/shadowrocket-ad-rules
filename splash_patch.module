@@ -46,3 +46,8 @@ DOMAIN,at3.doubanio.com,REJECT
 # JD ad delivery endpoint used by third-party apps; device validation pending.
 # Source: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/issues/48
 DOMAIN,dsp-x.jd.com,REJECT
+
+# Narrow Tencent ad-service hosts; device validation pending.
+# Source: https://github.com/privacy-protection-tools/anti-AD/blob/master/anti-ad-domains.txt
+DOMAIN,c2.l.qq.com,REJECT
+DOMAIN,p2.l.qq.com,REJECT
