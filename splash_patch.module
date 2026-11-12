@@ -51,3 +51,8 @@ DOMAIN,dsp-x.jd.com,REJECT
 # Source: https://github.com/privacy-protection-tools/anti-AD/blob/master/anti-ad-domains.txt
 DOMAIN,c2.l.qq.com,REJECT
 DOMAIN,p2.l.qq.com,REJECT
+
+# GDT ad-template service; device validation pending.
+# Sources: https://github.com/rssvcn/qy-Ads-Rule/blob/main/black.txt
+# https://github.com/xudazhu1/QuantumultX-/blob/main/qmkg.conf
+DOMAIN,xs.gdt.qq.com,REJECT
