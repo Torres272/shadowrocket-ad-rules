@@ -56,3 +56,8 @@ DOMAIN,p2.l.qq.com,REJECT
 # Sources: https://github.com/rssvcn/qy-Ads-Rule/blob/main/black.txt
 # https://github.com/xudazhu1/QuantumultX-/blob/main/qmkg.conf
 DOMAIN,xs.gdt.qq.com,REJECT
+
+# Additional QQ Music ad CDN and QUIC ad endpoint; device validation pending.
+# Source: https://github.com/Thelongdarkorg/loon-plugins/blob/main/qqmusic_splash_ad_block.plugin
+DOMAIN,adcdn6.tencentmusic.com,REJECT
+DOMAIN,tmeadquic.y.qq.com,REJECT
