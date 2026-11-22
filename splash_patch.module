@@ -17,6 +17,10 @@ URL-REGEX,^http://ugchsy\.gtimg\.com/gzc_1000173_[^/?#]+\.mp4(?:[?#]|$),REJECT
 # Tencent Video: a second observed CDN for the same plaintext ad filename pattern.
 URL-REGEX,^http://ugcyz\.gtimg\.com/gzc_1000173_[^/?#]+\.mp4(?:[?#]|$),REJECT
 
+# Tencent Video: two additional observed plaintext ad asset paths; keep shared CDNs otherwise intact.
+URL-REGEX,^http://ugccsy\.qq\.com/gzc_1000173_[^/?#]+\.mp4(?:[?#]|$),REJECT
+URL-REGEX,^http://ltscsy\.qq\.com/[^/?#]+/svp_1050/[^/?#]+/[^/?#]+_gzc_1000173_[^/?#]+\.ts(?:[?#]|$),REJECT
+
 # Additional source-backed ad domains; not yet tested on this device.
 # Source: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/AWAvenue-Ads-Rule.txt
 
