@@ -11,6 +11,9 @@ DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
 # Tencent Video: narrow plaintext VMind interactive-ad asset path; no CDN-wide block.
 URL-REGEX,^http://[0-9]+(?:\.[0-9]+){3}/vmind\.qqvideo\.tc\.qq\.com/[^/?#]+/svp_1050/gzc_1000173_[^/?#]+\.mp4(?:[?#]|$),REJECT
 
+# Tencent Video: limit the additional media CDN rule to the known plaintext ad filename pattern.
+URL-REGEX,^http://ugchsy\.gtimg\.com/gzc_1000173_[^/?#]+\.mp4(?:[?#]|$),REJECT
+
 # Additional source-backed ad domains; not yet tested on this device.
 # Source: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/AWAvenue-Ads-Rule.txt
 
