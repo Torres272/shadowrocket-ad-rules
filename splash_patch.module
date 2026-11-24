@@ -3,7 +3,6 @@
 
 [Rule]
 URL-REGEX,^http://[^/]+:8091/allOne\.php\?(?:[^&]*&)*ad_name=main_splash_ios(&|$),REJECT
-DOMAIN,goblin.hupu.com,REJECT
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN,api-access.pangolin-sdk-toutiao1.com,REJECT
 DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
